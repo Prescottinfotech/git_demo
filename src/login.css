@@ -51,7 +51,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 2rem;
-    color: rgb(8, 7, 7);
+    color: rgb(222, 209, 209);
   }
   .form .input-group {
     position: relative;
@@ -63,7 +63,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     letter-spacing: 1px;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid rgb(12, 10, 10);
+    border-bottom: 1px solid rgb(227, 205, 205);
     outline: none;
     background-color: transparent;
     color: inherit;
@@ -80,7 +80,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   .form .input-group input:focus + label,
   .form .input-group input:valid + label {
     transform: translateY(-18px);
-    color: rgb(17, 11, 11);
+    color: rgb(231, 213, 213);
     font-size: 0.8rem;
   }
   .submit-btn {
@@ -110,7 +110,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     right: 0;
     height: 0;
     z-index: 1;
-    background: rgb(14, 11, 11);
+    background: rgb(250, 238, 238);
     opacity: 0;
     transition: 0.6s;
   }
@@ -127,4 +127,3 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     text-decoration: none;
     color: inherit;
   }
-  

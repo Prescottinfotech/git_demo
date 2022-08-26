@@ -1,18 +1,9 @@
 import React from 'react'
 import './login.css'
 
-import Signup from "./Signup";
-import {Outlet,link, Link} from 'react-router-dom'
-
 function Login(){
     return(
-        <><ul>  
-        <li><Link to='/'>Home</Link></li>  
-        
-        <li><Link to='/Login'>Login</Link></li>  
-        <li><Link to='/Signup'>Signup</Link></li>  
-      </ul>  
-      <Outlet/>
+        <>
         
 <html lang="en">
   <head>
