@@ -8,8 +8,7 @@ function App(){
         <Login/>
 
 
-       </>,document.getElementById('root')
-    )
+       </>    )
 }
 
 export default App
