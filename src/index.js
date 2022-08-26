@@ -7,7 +7,7 @@ import Login from './Login';
 
 ReactDOM.render( 
    
-    <Login/>,document.getElementById("root")
+    <App/>,document.getElementById("root")
   
 );
 
