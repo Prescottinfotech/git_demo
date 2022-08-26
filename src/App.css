@@ -105,8 +105,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 0;
-  left: 0;
+  top:  0;
+  left:  0;
   right: 0;
   height: 0;
   z-index: 1;
