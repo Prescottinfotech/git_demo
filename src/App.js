@@ -1,11 +1,10 @@
 import React from "react"
 import './App.css'
-import Login from './Login'
-
+import Registration from "./registration";
 function App() {
   return (
     <>
-      <Login />
+      <Registration />
     </>
   )
 }
