@@ -1,8 +1,10 @@
 import React from "react"
+import './App.css'
 import Registration from "./registration";
 function App(){
   return(
-  <Registration/>
+  <><Registration/></>
+  
   )
 }
 
