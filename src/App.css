@@ -5,32 +5,23 @@
   font-family: "Roboto", Verdana
 }
 
-body{
-  background-color: rgb(149, 167, 167);
-  margin: 0 auto;
+#forgot-pw {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top:  0;
+  left:  0;
+  right: 0;
+  height: 0;
+  z-index: 1;
+  background: rgb(250, 238, 238);
+  opacity: 0;
+  transition: 0.6s;
 }
-.m-5-auto {
-  margin: 5rem auto
-}
-.primary-button {
-  margin-top: 5rem;
-  margin-right: 1rem;
-  padding: .6rem;
-  width: 10rem;
-  background: #222;
-  border: none;
-  color: rgb(232, 209, 10);
-  font-size: 1.2rem;
-  transition: all .5s;
-  cursor: pointer;
-  text-transform: capitalize
-}
-#checkbox {
-  width: 1rem
-}
-
-form span {
-  font-size: .8rem
+#forgot-pw:target {
+  height: 100%;
+  opacity: 1;
 }
 
 #reset_pass_lbl {
